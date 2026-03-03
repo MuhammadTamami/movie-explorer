@@ -20,7 +20,12 @@ A modern movie discovery app built with Vanilla JavaScript.
 - CSS Variables (Dark/Light Theme)
 
 ## 📸 Screenshots
-(Add screenshots here)
+
+### Dark Mode
+![Dark Mode](assets/dark-theme.png)
+
+### Light Mode
+![Light Mode](assets/light-theme.png)
 
 ## 🔗 Live Demo
-👉 https://yourusername.github.io/movie-explorer/
+👉 https://muhammadtamami.github.io/movie-explorer/

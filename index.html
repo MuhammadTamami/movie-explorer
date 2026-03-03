@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Explorer (Vanilla JS)</title>
+    <link rel="stylesheet" href="/src/css/style.css">
+</head>
+
+<body>
+    <div class="topbar">
+        <div class="topbar__inner">
+            <div class="brand">🎬 Movie Explorer</div>
+            <div class="nav">
+                <a class="btn" href="#/search">Search</a>
+                <a class="btn" href="#/favorites">Favorites</a>
+            </div>
+        </div>
+    </div>
+
+    <main class="container">
+        <!-- View akan dirender oleh router/ui dengan menggunakan 1 root untuk gampang switch page -->
+
+        <div id="app"></div>
+    </main>
+
+    <!-- App entry -->
+    <script type="module" src="./src/js/app.js"></script>
+</body>
+
+</html>
